@@ -1,36 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dominio en Venta</title>
-<style>
-  body { font-family: Arial, sans-serif; text-align:center; padding:50px; background:#f7f7f7; color:#333; }
-  h1 { font-size:2rem; margin-bottom:20px; }
-  p { font-size:1.2rem; }
-  form { margin-top:30px; display:inline-block; text-align:left; max-width:400px; width:100%; }
-  input, textarea, button { width:100%; padding:10px; margin:8px 0; border-radius:5px; border:1px solid #ccc; font-size:1rem; }
-  button { background:#007bff; color:#fff; border:none; cursor:pointer; }
-  button:hover { background:#0056b3; }
-  a { color:#007bff; text-decoration:none; }
-</style>
+<title id="pageTitle">Dominio en Venta</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>analiticaweb.com está en venta</h1>
-<p>Haz tu oferta o contáctanos para más información.</p>
+<div class="hero">
+  <h1 id="heading">landing-analiticaweb.com está en venta</h1>
+  <p id="description">Este dominio está en venta. Haz tu oferta o contáctanos para más información.</p>
+  
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Tu nombre" required>
+    <input type="email" id="email" placeholder="Tu correo electrónico" required>
+    <textarea id="message" placeholder="Tu mensaje" rows="4" required></textarea>
+    <button type="submit" id="submitBtn">Enviar</button>
+    <p id="formMessage" class="hidden"></p>
+  </form>
+</div>
 
-<form action="https://formspree.io/f/xyknbagd" method="POST">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" rows="4" required></textarea>
-
-  <button type="submit">Send</button>
-</form>
-
-<p style="margin-top:30px;">Or send email to <a href="mailto:diego.fernandez@artifizial.net">diego.fernandez@artifizial.net</a></p>
-
+<script src="script.js"></script>
 </body>
 </html>

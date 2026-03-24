@@ -1,0 +1,38 @@
+{
+    "es": {
+      "title": "Dominio en Venta",
+      "heading": "landing-analiticaweb.com está en venta",
+      "description": "Este dominio está en venta. Haz tu oferta o contáctanos para más información.",
+      "name": "Tu nombre",
+      "email": "Tu correo electrónico",
+      "message": "Tu mensaje",
+      "submit": "Enviar",
+      "success": "¡Mensaje enviado correctamente!",
+      "error": "Error al enviar. Intenta de nuevo.",
+      "incomplete": "Por favor completa todos los campos."
+    },
+    "en": {
+      "title": "Domain for Sale",
+      "heading": "landing-analiticaweb.com is for sale",
+      "description": "This domain is for sale. Make your offer or contact us for more information.",
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message",
+      "submit": "Send",
+      "success": "Message sent successfully!",
+      "error": "Error sending message. Try again.",
+      "incomplete": "Please fill in all fields."
+    },
+    "fr": {
+      "title": "Domaine à Vendre",
+      "heading": "landing-analiticaweb.com est à vendre",
+      "description": "Ce domaine est à vendre. Faites votre offre ou contactez-nous pour plus d'informations.",
+      "name": "Votre nom",
+      "email": "Votre email",
+      "message": "Votre message",
+      "submit": "Envoyer",
+      "success": "Message envoyé avec succès !",
+      "error": "Erreur lors de l'envoi. Réessayez.",
+      "incomplete": "Veuillez remplir tous les champs."
+    }
+  }
